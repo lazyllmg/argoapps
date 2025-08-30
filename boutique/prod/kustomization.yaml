@@ -10,32 +10,32 @@ resources:
 
 images:
   - name: cartservice
-    newName: registry.digitalocean.com/microservices-demo/cartservice
-    newTag: v1.0.0
+    newName: us-central1-docker.pkg.dev/google-samples/microservices-demo/cartservice
+    newTag: v0.10.3
   - name: checkoutservice
-    newName: registry.digitalocean.com/microservices-demo/checkoutservice
-    newTag: v1.0.0
+    newName: us-central1-docker.pkg.dev/google-samples/microservices-demo/checkoutservice
+    newTag: v0.10.3
   - name: currencyservice
-    newName: registry.digitalocean.com/microservices-demo/currencyservice
-    newTag: v1.0.0
+    newName: us-central1-docker.pkg.dev/google-samples/microservices-demo/currencyservice
+    newTag: v0.10.3
   - name: emailservice
-    newName: registry.digitalocean.com/microservices-demo/emailservice
-    newTag: v1.0.0
+    newName: us-central1-docker.pkg.dev/google-samples/microservices-demo/emailservice
+    newTag: v0.10.3
   - name: frontend
-    newName: registry.digitalocean.com/microservices-demo/frontend
-    newTag: v1.0.0
+    newName: us-central1-docker.pkg.dev/google-samples/microservices-demo/frontend
+    newTag: v0.10.3
   - name: paymentservice
-    newName: registry.digitalocean.com/microservices-demo/paymentservice
-    newTag: v1.0.0
+    newName: us-central1-docker.pkg.dev/google-samples/microservices-demo/paymentservice
+    newTag: v0.10.3
   - name: productcatalogservice
-    newName: registry.digitalocean.com/microservices-demo/productcatalogservice
-    newTag: v1.0.0
+    newName: us-central1-docker.pkg.dev/google-samples/microservices-demo/productcatalogservice
+    newTag: v0.10.3
   - name: recommendationservice
-    newName: registry.digitalocean.com/microservices-demo/recommendationservice
-    newTag: v1.0.0
+    newName: us-central1-docker.pkg.dev/google-samples/microservices-demo/recommendationservice
+    newTag: v0.10.3
   - name: shippingservice
-    newName: registry.digitalocean.com/microservices-demo/shippingservice
-    newTag: v1.0.0
+    newName: us-central1-docker.pkg.dev/google-samples/microservices-demo/shippingservice
+    newTag: v0.10.3
 
 replicas:
   - name: cartservice

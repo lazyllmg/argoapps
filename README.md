@@ -10,3 +10,13 @@ argocd app create demoapp1\
       --sync-policy "automated" \
       --auto-prune \
       --self-heal
+
+argocd app create boutique-prod \
+      --repo "https://github.com/lazyllmg/argoapps.git" \
+      --path "boutique/prod" \
+      --dest-server "https://kubernetes.default.svc" \
+      --dest-namespace "boutique-prod" \
+      --revision "master" \
+      --sync-policy "automated" \
+      --auto-prune \
+      --self-heal
