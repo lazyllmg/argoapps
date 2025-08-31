@@ -16,13 +16,25 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - adservice.yaml
+- adservice-hpa.yaml
 - cartservice.yaml
+- cartservice-hpa.yaml
+- redis-cart-hpa.yaml
 - checkoutservice.yaml
+- checkoutservice-hpa.yaml
 - currencyservice.yaml
+- currencyservice-hpa.yaml
 - emailservice.yaml
+- emailservice-hpa.yaml
 - frontend.yaml
+- frontend-hpa.yaml
 - loadgenerator.yaml
+- loadgenerator-hpa.yaml
 - paymentservice.yaml
+- paymentservice-hpa.yaml
 - productcatalogservice.yaml
+- productcatalogservice-hpa.yaml
 - recommendationservice.yaml
+- recommendationservice-hpa.yaml
 - shippingservice.yaml
+- shippingservice-hpa.yaml
