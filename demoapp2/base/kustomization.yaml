@@ -28,7 +28,6 @@ resources:
 - frontend.yaml
 - frontend-hpa.yaml
 - loadgenerator.yaml
-- loadgenerator-hpa.yaml
 - paymentservice.yaml
 - paymentservice-hpa.yaml
 - productcatalogservice.yaml
